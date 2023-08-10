@@ -1,0 +1,98 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./img/Purple\ Modern\ Personal\ Portfolio\ Blog\ Desktop\ Prototype\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+h2 {
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+
+#username-placeholder {
+  color: rgb(7, 6, 6);
+  align-items: center;
+}
+
+.scroll {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.menu a {
+  padding-left: 5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* NAVBAR */
+nav {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 0rem;
+}
+
+ul li {
+  list-style: none;
+  padding-left: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a {
+  text-align: center;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.store-item {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.store-item a {
+  margin: 2rem;
+}
+
+.store-item img {
+  width: 300px;
+  box-shadow: 1px 1px 4px #333;
+  border-radius: 20px;
+}
+
+.gym,
+.study,
+.daily,
+.weekly {
+  display: flex;
+  flex-wrap: wrap;
+}
